@@ -1,0 +1,11 @@
+/* components/cmp/j-cnp.wxss */
+.imgs{
+  width: 700rpx;
+  margin: 10rpx auto;
+}
+.img{
+  width: 650rpx;
+  display: block;
+  margin: auto;
+
+}

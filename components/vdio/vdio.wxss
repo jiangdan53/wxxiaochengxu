@@ -1,0 +1,55 @@
+.vido{
+  margin:auto;
+  width: 650rpx;
+}
+.gif{
+width: 650rpx;
+}
+.sp{
+  width: 650rpx;
+  height: 400rpx;
+}
+.nimg{
+  width: 650rpx;
+  height: 400rpx;
+  position: relative;
+
+}
+.gifs{
+  width: 100%;
+  height: 100%;
+}
+.imgt{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100rpx;
+  height: 100rpx;
+  background-color: rgba(0, 0, 0, .6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  
+}
+.imgt-i{
+  margin-top: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.imgt-t{
+  color: #fff;
+}
+.vdiotext{
+  font-size: 20rpx;
+  padding: 5rpx 10rpx;
+}
+.mske{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 1334rpx;
+  background-color: rgba(0, 0, 0, .5)
+}

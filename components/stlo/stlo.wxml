@@ -1,0 +1,5 @@
+<view class="wrap" >
+  <slot name="bul"></slot>
+  <j-button listbutton="{{item.type || item.tag}}" typeId="{{item.typeId}}" wx:for="{{dataobj}}" wx:key="{{dataobj.typeId || dataobj.tagid}}"></j-button>
+  <slot name="ml"></slot>
+</view>

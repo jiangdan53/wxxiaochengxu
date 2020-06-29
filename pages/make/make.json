@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "j-list":"/components/Actvlist/list",
+    "j-button":"/components/buttonf/buttonf"
+  }
+}

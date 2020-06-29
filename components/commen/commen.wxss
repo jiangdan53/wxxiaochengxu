@@ -1,0 +1,16 @@
+/* components/commen/commen.wxss */
+.din{
+  font-size: 30rpx;
+  line-height: 30rpx;
+  padding: 10rpx 27rpx;
+  background-color: black;
+  color: #fff;
+}
+.okdin{
+  font-size: 30rpx;
+  line-height: 30rpx;
+  padding: 10rpx 10rpx;
+  background-color:#985;
+  color: #fff;
+  border: 1rpx solid #000;
+}

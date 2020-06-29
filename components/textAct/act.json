@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "j-imgText":"/components/imgText/imgText",
+    "j-button":"/components/listbutton/button",
+    "j-button-x":"/components/buttonx/buttonx",
+    "j-button-f":"/components/buttonf/buttonf",
+    "j-button-l":"/components/buttonl/buttonl",
+    "j-cnp":"/components/cmp/j-cnp",
+    "j-textpus":"/components/textpus/textpus",
+    "j-nixtImg":"/components/nixtImg/nixtImg",
+    "j-vdio":"/components/vdio/vdio"
+  }
+}

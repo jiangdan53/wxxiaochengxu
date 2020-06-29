@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "j-button":"/components/listbutton/button"
+  }
+}

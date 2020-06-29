@@ -1,0 +1,9 @@
+<!-- 纯文字 -->
+<view class="pustext">
+<view class="tex">
+<text >{{diyitit}}</text>
+</view>
+<view class="text">
+<text >{{diertit}}</text>
+</view>
+</view>

@@ -1,0 +1,4 @@
+<view class="x">
+<image catch:tap="onx" class="img" wx:if="{{but}}" src="./image/Icon_circle_fill.png"/>
+<image catch:tap="onx" class="img" wx:else src="./image/Icon_circle.png" />
+</view>

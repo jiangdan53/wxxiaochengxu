@@ -1,0 +1,1 @@
+<view  class="button" catch:tap="onButton">{{listbutton}}</view>

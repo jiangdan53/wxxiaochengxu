@@ -1,0 +1,15 @@
+.nav{
+  box-sizing: border-box;
+  width: 750rpx;
+  padding: 30rpx;
+  background-color: #fff;
+  white-space: nowrap;
+}
+.type{
+  font-size: 40rpx;
+  padding: 0 30rpx;
+  color: #888;
+}
+.acrtv{
+  color: #197;
+}

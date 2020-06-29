@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/mulu/mulu",
+    "pages/make/make",
+    "pages/HomePage/HomePage",
+    "pages/input/html"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#992",
+    "navigationBarTitleText": "轻芒杂志",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#000",
+    "backgroundColor": "#950",
+    "list": [
+      {
+        "pagePath": "pages/mulu/mulu",
+        "text": "目录",
+        "iconPath": "/image/mske/catalog_selected.png",
+        "selectedIconPath": "/image/mske/catalog.png"
+      },
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "text": "杂志",
+        "iconPath": "/image/mske/index_selected.png",
+        "selectedIconPath": "/image/mske/index.png"
+      },
+      {
+        "pagePath": "pages/make/make",
+        "text": "马克",
+        "iconPath": "/image/mske/mark_selected.png",
+        "selectedIconPath": "/image/mske/mark.png"
+      }
+    ]
+  }
+}

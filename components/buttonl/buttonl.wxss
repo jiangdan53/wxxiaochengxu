@@ -1,0 +1,9 @@
+.l{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+}
+.img{
+  width: 50rpx;
+  height: 50rpx;
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "j-act":"/components/textAct/act",
+    "j-londing":"/components/londing/londing"
+  }
+}

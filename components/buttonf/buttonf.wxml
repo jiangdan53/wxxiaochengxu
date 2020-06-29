@@ -1,0 +1,6 @@
+<view  class="f">
+<button  class="but" open-type="{{opentype}}" bindgetuserinfo="Getursinfo">
+<slot name="img" ></slot> 
+</button>
+</view>
+

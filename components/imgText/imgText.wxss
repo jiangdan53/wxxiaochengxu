@@ -1,0 +1,24 @@
+.imgtext{
+  width: 650rpx;
+  margin: auto;
+}
+.imgtexts{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.imgtexts .text{
+  font-size: 48rpx;
+  height: 170rpx;
+  margin-right: 10rpx;
+
+}
+.imgtexts .img image{
+  width: 170rpx;
+  height: 170rpx;
+}
+.dier{
+  font-size: 20rpx;
+  color: #985;
+}

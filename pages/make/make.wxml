@@ -1,0 +1,16 @@
+<view class="mask">
+<view class="name">
+  <text class="txte">{{ursinfo.nickName}}</text>
+<j-button class="button" opentype="share">
+  <image class="butimg" src="/components/buttonf/image/Icon_relay.png" slot="img" />
+</j-button>
+</view>
+<view class="nav">
+  <image class="img" wx:if="{{lon}}" src="{{ursinfo.avatarUrl}}" />
+  <j-button wx:else  class="but" opentype="getUserInfo"  bind:getuseinfo="onGetuse" >
+    <image class="img" slot="img"  src="/image/mske/login.png"/>
+  </j-button>
+</view>
+</view>
+<j-list class="l"  Alist="{{lovelist}}"></j-list>
+

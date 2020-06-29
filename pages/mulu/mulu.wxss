@@ -1,0 +1,29 @@
+.list{
+  background-color: #fff;
+}
+.list-tite{
+  font-size: 50rpx;
+  line-height: 50rpx;
+  padding: 20rpx
+}
+.list-miintit{
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.tite{
+  font-size: 30rpx;
+  line-height: 30rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 20rpx;
+}
+.din{
+  position:absolute;
+  right: 0;
+  top: 0;
+  margin-right: 20rpx;
+}

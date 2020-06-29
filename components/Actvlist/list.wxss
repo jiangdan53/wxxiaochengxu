@@ -1,0 +1,16 @@
+.list {
+  background-color:rgba(0,0,0,.1) ;
+  padding         : 20rpx
+}
+
+.nomdu {
+  width     : 100%;
+  display   : block;
+  text-align: center;
+  font-size : 30rpx;
+  color     : #666;
+}
+.londing{
+display: block;
+margin: 30rpx 315rpx;
+}

@@ -1,0 +1,3 @@
+<view class="l">
+<image class="img" src="./image/Icon_more.png" catch:tap="ontap" />
+</view>

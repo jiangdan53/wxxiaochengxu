@@ -1,0 +1,7 @@
+<view  class="list">
+<j-act wx:for="{{Alist}}" Actmask ="{{item}}" wx:key="{{artId}}"></j-act>
+<text wx:if="{{nomodu}}" class="nomdu">没有更多了O</text>
+<j-londing hidden="{{!loding}}"  class="londing"></j-londing>
+</view>
+
+

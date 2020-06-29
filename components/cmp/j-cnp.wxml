@@ -1,0 +1,4 @@
+<view class="imgs">
+<image class="img" src="{{imgSrc}}"  />
+<text class="text">{{diyitit}}</text>
+</view>

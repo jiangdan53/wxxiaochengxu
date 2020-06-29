@@ -1,0 +1,19 @@
+<view class="box">
+  <j-input val="{{word}}"></j-input>
+  <view ></view>
+    <j-stol dataobj="{{TagList}}" >
+      <j-add slot="bul"></j-add>
+    </j-stol>
+<view class="list" wx:for="{{tagInfoList}}" wx:key="{{item}}">
+  <view class="list-tite">{{item.title}}></view>
+  <view class="list-miintit" wx:for="{{item.tagList}}" wx:key="{{item}}" >
+    <view class="tite">
+      <text class="tite-l">#</text>
+      <text class="tite-t">{{item.tag}}</text>
+    </view>
+    <j-coms catch:tap="onok" class="din" tag="{{item.tag}}" tagId="{{item.tagId}}"></j-coms>
+
+  </view>
+</view>
+
+</view>

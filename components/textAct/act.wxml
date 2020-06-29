@@ -1,0 +1,42 @@
+<view class="actv">
+<view class="tou">
+<image src="{{Actmask.mark.avatar}}" class="actimg"/>
+<text class="acttext">{{Actmask.mark.people}}等{{Actmask.mark.count}}人安利了</text>
+</view>
+<view > 
+<j-imgText wx:if="{{Actmask.type === 2}}"
+ img-src="{{Actmask.imgArray}}"
+  diyitit="{{Actmask.mainTitle}}" 
+ diertit="{{Actmask.subHead}}"></j-imgText>
+<j-vdio wx:elif="{{Actmask.type === 3}}" 
+  vdioID="{{Actmask.video.id}}"
+  src="{{Actmask.video.src}}"
+  gif="{{Actmask.video.poster}}"
+  dus="{{Actmask.video.duration}}"
+  diyitit="{{Actmask.mainTitle}}" ></j-vdio>
+<j-nixtImg wx:elif="{{Actmask.type === 1}}"
+ imgArr="{{Actmask.imgArray}}"
+ diyitit="{{Actmask.mainTitle}}"></j-nixtImg>
+<j-cnp wx:elif="{{Actmask.type === 0}}"
+ img-src='{{Actmask.imgArray}}' 
+ diyitit="{{Actmask.mainTitle}}" />
+<j-textpus wx:else 
+  diyitit="{{Actmask.mainTitle}}"
+ diertit="{{Actmask.subHead}}" ></j-textpus>
+</view>
+<view class="buttons" >
+<view class="butto">
+<j-button listbutton="{{Actmask.tag}}" typeID="{{Actmask.tagId}}"></j-button>
+</view>
+<view class="button">
+<j-button-l class="box" type="{{Actmask.tag}}"></j-button-l>
+<j-button-f class="box bos" opentype="share">
+  <image class="butimg" src="/components/buttonf/image/Icon_relay.png" slot="img" />
+</j-button-f>
+<!-- <j-button-f class="box bos"></j-button-f> -->
+<j-button-x class="box" but="{{bolo}}" catch:like="onlike"></j-button-x>
+</view>
+</view>
+
+
+</view>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "j-coms":"/components/commen/commen",
+    "j-stol":"/components/stlo/stlo",
+    "j-add":"/components/add/add",
+    "j-button":"/components/listbutton/button",
+    "j-input":"/components/inputhtml/input"
+  }
+}

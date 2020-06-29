@@ -1,0 +1,17 @@
+<!-- 视频组件 -->
+<view class="vido">
+  <view class="gif">
+    <video id="{{vdioID}}" bindended="{{ended}}" class="sp" hidden="{{vdio}}" src="{{src}}" />
+    <view class="nimg" hidden="{{!vdio}}">
+      <image class="gifs" src="{{gif}}" />
+      <view class="imgt" catch:tap="onpaly">
+        <image class="imgt-i" src="./image/Icon_play_white.png" />
+        <text class="imgt-t">{{dus}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="vdiotext">
+    <text>{{diyitit}}</text>
+  </view>
+  <view class="mske" hidden="{{vdio}}" catch:tap="onmske"></view>
+</view>

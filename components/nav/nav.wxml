@@ -1,0 +1,5 @@
+<scroll-view class="nav" scroll-with-animation="{{true}}" scroll-x="{{true}}" scroll-into-view="{{mkeaznid}}">
+<text class="type {{index === mkezan ? 'acrtv':''}}" data-index="{{index}}" bind:tap="ontap" wx:for="{{typelist}}" wx:key="*this"
+ id="{{'mkeaznid'+index}}"
+>{{item}}</text>
+</scroll-view>

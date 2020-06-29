@@ -1,0 +1,12 @@
+<!-- 九图组件 -->
+<view class="nixtImg">
+  <view class="img">
+    <block wx:for="{{imgArr}}" wx:key="*this" wx:if="{{index < 9}}">
+    <image catch:tap="toimg" class="imgs" src="{{item}}"   data-img="{{index}}"/>
+    </block>
+    <text class="length"  wx:if="{{imgArr.length > 9}}">{{imgArr.length}}</text>
+ </view>
+  <view class="texc">
+    <text >{{diyitit}}</text>
+  </view>
+</view>

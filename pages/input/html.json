@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "j-input":"/components/inputhtml/input",
+    "j-list":"/components/Actvlist/list"
+  }
+}

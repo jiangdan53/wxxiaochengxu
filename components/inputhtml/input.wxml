@@ -1,0 +1,4 @@
+<view class="box">
+  <input class="inli"  bindblur="onBlur" value="{{val}}" bindconfirm="onFirm" placeholder="轻芒杂志要啥都有"/>
+  <text class="intext" catchtap="onFirm">搜索</text>
+</view>

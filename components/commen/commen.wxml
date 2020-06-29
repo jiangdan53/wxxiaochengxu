@@ -1,0 +1,1 @@
+<view class="din {{class == 'okdin' ? 'okdin': ''}}" catch:tap="oncon">{{class == 'okdin'? '以订阅' : '订阅'}}</view>

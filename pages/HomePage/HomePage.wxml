@@ -1,0 +1,12 @@
+<j-nav class="nva" catch:mytrigger="onNav"></j-nav>
+<j-data dataArr="{{Recom}}" maxId="{{mkanid}}" class="data"></j-data>
+<view class="londings" wx:if="{{long}}">
+<j-londing class="lon"></j-londing>
+</view>
+<j-stlo dataobj="{{nack}}">
+  <j-add slot="bul" wx:if="{{mkanid == 0}}"></j-add>
+  <view slot="ml" catch:tap="onCatalog" class="ml" wx:if="{{mkanid == 0}}">•••</view>
+</j-stlo>
+<j-list Alist="{{Alist}}" moar="{{jiazai}}" listid="{{myid}}" ></j-list>
+
+

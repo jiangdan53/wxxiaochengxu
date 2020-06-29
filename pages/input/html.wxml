@@ -1,0 +1,5 @@
+<view class="conemm">
+  <j-input val="{{word}}"></j-input>
+  <view class="tit"></view>
+  <j-list></j-list>
+</view>

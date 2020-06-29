@@ -1,0 +1,4 @@
+<view class="londig" hidden="{{hidden}}" >
+  <view class="cile"></view>
+  <view class="cile ciles"></view>
+</view>

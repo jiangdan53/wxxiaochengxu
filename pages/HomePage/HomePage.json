@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "j-list":"/components/Actvlist/list",
+    "j-nav":"/components/nav/nav",
+    "j-data":"/components/resData/data",
+    "j-stlo":"/components/stlo/stlo",
+    "j-add":"/components/add/add",
+    "j-londing":"/components/londing/londing"
+  }
+}

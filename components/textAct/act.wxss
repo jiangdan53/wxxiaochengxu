@@ -1,0 +1,53 @@
+.actv {
+  background-color: #FFF;
+  padding: 20rpx 0rpx;
+  width: 700rpx;
+  margin: 25rpx auto;
+}
+
+.tou {
+  margin: 20rpx 0rpx;
+  padding: 10rpx 10rpx;
+}
+
+.tou .actimg {
+  width         : 50rpx;
+  height        : 50rpx;
+  border-radius : 50%;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.tou .acttext {
+  font-size: 30rpx;
+  color    : #666;
+}
+.buttons{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.butto{
+  display: inline-block;
+  padding: 20rpx;
+}
+.button{
+  display: inline-block;
+  page-break-after: 20rpx;
+}
+.box{
+  width: 30px;
+  height: 20px;
+  margin-left: 15rpx;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.butimg{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  justify-items: center;
+  transform: translateY(-10rpx);
+}

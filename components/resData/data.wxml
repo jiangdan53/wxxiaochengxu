@@ -1,0 +1,10 @@
+<view class="box">
+  <view class="tile">
+    <text class="text">{{maxId == 0 ?date : nvalist[maxId]}}</text>
+    <text class="tite">{{dataArr.title}}</text>
+  </view>
+  <image  mode="widthFix" class="imgbox" src="{{dataArr.imgSrc}}" wx:if="{{dataArr.imgSrc}}" />
+  <view class="mosk" hidden="{{dataArr.imgSrc}}">
+    <view class="bos"></view>
+  </view>
+</view>

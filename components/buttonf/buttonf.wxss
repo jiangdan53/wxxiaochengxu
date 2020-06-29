@@ -1,0 +1,11 @@
+.f{
+  display: inline-block;
+}
+.but{
+  padding: 0;
+  background-color: transparent;
+  
+}
+.but::after{
+  border: none;
+}

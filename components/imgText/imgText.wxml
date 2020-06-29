@@ -1,0 +1,15 @@
+<!-- 图文字组件 -->
+<view class="imgtext">
+<view class="imgtexts">
+<view class="text">
+<text >{{diyitit}}</text>
+</view>
+<view class="img">
+<image src="{{imgSrc}}" />
+</view>
+</view>
+
+<view class="dier">
+<text>{{diertit}}</text>
+</view>
+</view>
